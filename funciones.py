@@ -25,7 +25,7 @@ def registrar_persona():
 
     persona = {"nombre": nombre, "edad": edad, "ciudad": ciudad}
     personas.append(persona)
-    guardar_datos
+    guardar_datos()
     print("La persona ha sido guardada con exito")
 
 def mostrar_persona():
